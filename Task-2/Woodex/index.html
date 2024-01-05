@@ -96,16 +96,33 @@
               <div class="product">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
-                      <div class="swiper-slide">Slide 1</div>
-                      <div class="swiper-slide">Slide 2</div>
-                      <div class="swiper-slide">Slide 3</div>
-                      <div class="swiper-slide">Slide 4</div>
-                      <div class="swiper-slide">Slide 5</div>
-                      <div class="swiper-slide">Slide 6</div>
-                      <div class="swiper-slide">Slide 7</div>
-                      <div class="swiper-slide">Slide 8</div>
-                      <div class="swiper-slide">Slide 9</div>
+                      <div class="swiper-slide">
+                        <img src="./image/product-1.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./image/product-2.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./image/product-3.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./image/product-4.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./image/product-5.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./image/product-6.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./image/product-7.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./image/product-8.png" alt="">
+                      </div>
                     </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                     <div class="swiper-pagination"></div>
                   </div>
               </div>
@@ -117,21 +134,29 @@
         var swiper = new Swiper(".mySwiper", {
           slidesPerView: 1,
           spaceBetween: 10,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+           },
           pagination: {
             el: ".swiper-pagination",
             clickable: true,
           },
           breakpoints: {
-            640: {
+            580: {
               slidesPerView: 2,
               spaceBetween: 20,
             },
-            768: {
+            700: {
+              slidesPerView: 3,
+              spaceBetween: 40,
+            },
+            900: {
               slidesPerView: 4,
               spaceBetween: 40,
             },
             1024: {
-              slidesPerView: 5,
+              slidesPerView: 4,
               spaceBetween: 50,
             },
           },
