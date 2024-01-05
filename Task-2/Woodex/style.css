@@ -310,6 +310,34 @@ section{
 	font-size: 1.4rem;
   }
   
+.about{
+	 display: flex;
+	 flex-wrap: wrap;
+	 gap: 2rem;
+	 padding: 4%;
+}
+.about-image{
+	width: 600px;
+	height: 100%;
+}
+.about-image img{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.about-text{
+	 width: 500px;
+}
+.about-text span{
+	 color: #f75023;
+	 font-size: 1.3rem;
+}
+.about-text h5{
+	margin-top: 1rem;
+	font-size: 1.6rem;
+	color: #666;
+}
+
 
 @media (max-width: 1425px){
 	header{
