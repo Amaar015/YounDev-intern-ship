@@ -20,6 +20,19 @@ body{
 	background: var(--bg-color);
 	color: var(--text-color);
 }
+.heading{
+	 font-size: 2.5rem;
+	 color: #333;
+	 text-align: center;
+	 
+}
+.heading span{
+	color: #f75023;
+}
+/* Text animation */
+
+
+
 header{
 	position: fixed;
 	width: 100%;
@@ -198,6 +211,13 @@ section{
      color: var(--text-color);
 }
 /* Responsive */
+.shop h3{
+	 font-size: 1.3rem;
+	 text-transform: uppercase;
+	 color: #333;
+	 
+	 text-decoration: underline;
+}
 
 
 @media (max-width: 1425px){
