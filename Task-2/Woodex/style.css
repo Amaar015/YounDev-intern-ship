@@ -215,8 +215,27 @@ section{
 	 font-size: 1.3rem;
 	 text-transform: uppercase;
 	 color: #333;
-	 
 	 text-decoration: underline;
+	 margin-top: 1rem;
+	 margin-left: 2rem;
+}
+.categories{
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 flex-wrap: wrap;
+	 gap: 2rem;
+	 margin-top: 2rem;
+}
+.categories .box{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	gap: 10px;
+	padding: 10px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 
