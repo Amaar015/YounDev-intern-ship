@@ -517,6 +517,48 @@ section{
 }
 
 
+.last{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	/* padding: 2rem; */
+}
+.last .links{
+	 width: 300px;
+
+}
+.links h4{
+	font-size: 1.3rem;
+	color: #333;
+	margin-bottom: 1.5rem;
+}
+.links ul{
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+ul li {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+ul li i{
+	color: #666;
+	font-size: 1.2rem;
+	transition: all 0.3s linear;
+}
+ul li a{
+	text-decoration: none;
+	font-size: 1.2rem;
+	color: #333;
+	transition: all 0.3s linear;
+}
+ul li:hover a,
+ul li:hover i{
+    color: #f75023!important;
+}
 @media (max-width: 1425px){
 	header{
 		padding: 16px 3%;
