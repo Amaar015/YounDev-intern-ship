@@ -480,6 +480,43 @@ section{
 .author div span{
 	color: #a09dab;
 }
+
+.service-main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+	gap: 2rem;
+}
+.service-main .service-box{
+	   width: 300px;
+	   height: 100%;
+	   padding: 1rem;
+	   display: flex;
+	   flex-direction: column;
+	   justify-content: center;
+	   align-items: center;
+	   border-radius: 20px;
+	   border: 2px solid #f75023;
+}
+.service-box img{
+	width: 5rem;
+	height: 5rem;
+}
+.service-box h5{
+	font-size: 1.3rem;
+	color: #666;
+	margin-top: 1rem;
+}
+.service-box p{
+	 font-size: 1rem;
+	 color: #666;
+	 text-align: center;
+	 margin-top: 0.5rem;
+}
+
+
 @media (max-width: 1425px){
 	header{
 		padding: 16px 3%;
