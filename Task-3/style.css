@@ -247,6 +247,30 @@ footer .last{
     font-size: 2rem;
   }
 
+ .places .place-box{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 2rem;
+ }
+ .place-box .box-content{
+     flex: 1 1 15rem;
+ }
+ .box-content h4{
+    font-size: 2rem;
+    color: #444;
+ }
+ .box-content p{
+    font-size: 1.3rem;
+    color: #a09dab;
+ }
+ .place-box .box-image{
+    flex: 1 1 15rem;
+ }
+ .box-image img{
+    width: 100%;
+    height: 100%;
+ }
+
 @media(max-width:991px){
     .sidebar{
         background-color: rgba(255,255,255, 0.15);
@@ -287,6 +311,10 @@ footer .last{
     .service .box{
         width: 250px;
     }
+    
+ .box-content p{
+    font-size: 1rem;
+ }
 }
 
 
