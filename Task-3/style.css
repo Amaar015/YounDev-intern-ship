@@ -168,12 +168,51 @@ footer{
 footer .center{
    display: flex;
    flex-wrap: wrap;
-   gap: 1rem;
+   gap: 2rem;
+   margin-top: 1rem;
 }
 .center .links{
-     width: 300px;
+     width: 250px;
+}
+.links h4{
+    font-size: 1.3rem;
+    color: #a09dab;
+    text-decoration: underline;
+}
+.links div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+.links div a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+    transition: all 0.3s linear;
+}
+.links div a:hover{
+    color: #a09dab;
+}
+.links div p{
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+.links div p>span{
+    color: #f77638;
 }
 
+footer .last{
+     margin-top: 2rem;
+}
+.last p{
+    text-align: center;
+    color: #a09dab;
+    font-size: 1.2rem;
+}
+.last p>span{
+    color: #f77638;
+}
 @media(max-width:991px){
     .sidebar{
         background-color: rgba(255,255,255, 0.15);
