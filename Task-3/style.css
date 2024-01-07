@@ -165,6 +165,14 @@ footer{
 .icons i:hover{
      transform: scale(1.2);
 }
+footer .center{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;
+}
+.center .links{
+     width: 300px;
+}
 
 @media(max-width:991px){
     .sidebar{
