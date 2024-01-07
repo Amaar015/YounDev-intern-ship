@@ -217,13 +217,34 @@ footer .last{
 /* places */
   .place{
      width: 100%;
-     height: 60vh;
+     height: 40vh;
      background: url(./img/place.jpg);
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
      margin-top:4rem ;
      filter: grayscale(30%);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+
+  .place .place-content{ 
+          color: #ffffff;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+  }
+  .place-content span{
+     font-size: 1.2rem;
+
+  }
+  .place-content h1{
+        font-size: 5rem;
+  }
+  .place-content p{
+    font-size: 2rem;
   }
 
 @media(max-width:991px){
@@ -243,6 +264,15 @@ footer .last{
     }
 }
 
+@media (max-width:600px){
+    
+  .place-content h1{
+    font-size: 3rem;
+   }
+ .place-content p{
+   font-size: 1.4rem; 
+   }
+}
 @media(max-width:500px){
      section{
          padding:30px 4% ;
@@ -259,3 +289,13 @@ footer .last{
     }
 }
 
+
+@media (max-width:320px){
+    
+    .place-content h1{
+      font-size: 2rem;
+     }
+   .place-content p{
+     font-size: 1.2rem; 
+     }
+  }
