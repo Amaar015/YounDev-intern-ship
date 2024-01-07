@@ -240,7 +240,7 @@ footer .last{
      font-size: 1.2rem;
 
   }
-  .place-content h1{
+  .place-heading{
         font-size: 5rem;
   }
   .place-content p{
@@ -271,6 +271,21 @@ footer .last{
     height: 100%;
  }
 
+ .infall{
+    background: url(./img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .infall h1{
+    color: #444;
+ }
 @media(max-width:991px){
     .sidebar{
         background-color: rgba(255,255,255, 0.15);
