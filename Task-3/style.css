@@ -213,6 +213,19 @@ footer .last{
 .last p>span{
     color: #f77638;
 }
+
+/* places */
+  .place{
+     width: 100%;
+     height: 60vh;
+     background: url(./img/place.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     margin-top:4rem ;
+     filter: grayscale(30%);
+  }
+
 @media(max-width:991px){
     .sidebar{
         background-color: rgba(255,255,255, 0.15);
