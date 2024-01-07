@@ -115,6 +115,46 @@ section{
     text-align: center;
 }
 
+footer{
+     width: 100%;
+     background: #444;
+     padding:1% 4%; 
+}
+.top{
+    
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+}
+.top h1{
+     font-size: 2rem;
+     color: #ffffff;
+     font-weight: 400;
+}
+.top .icons{
+     display: flex;
+     gap: 1rem;
+}
+.icons i{
+    font-size: 2rem;
+}
+.icons i:nth-child(1){
+    color: white;
+}
+.icons i:nth-child(2){
+    color: white;
+}
+.icons i:nth-child(3){
+    color: white;
+}
+.icons i:nth-child(4){
+    color: white;
+}
+.icons i:nth-child(5){
+    color: white;
+}
+
 @media(max-width:991px){
     .sidebar{
         background-color: rgba(255,255,255, 0.15);
