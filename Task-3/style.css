@@ -99,6 +99,10 @@ section{
 .box i{
     font-size: 3rem;
     color: #f75023;
+    transition: all 0.3s linear;
+}
+.box:hover i{
+    color: #444;
 }
 .box h4{
      font-size: 1.5rem;
